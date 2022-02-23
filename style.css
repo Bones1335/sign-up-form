@@ -76,9 +76,14 @@ div.action-statement {
     margin-bottom: 50px;
 }
 
+
+
 div#inputs {
     box-shadow: 0 5px 5px 5px rgb(0 0 0 /12%);
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 form input {
@@ -98,4 +103,23 @@ fieldset {
 .label-placement {
     display: flex;
     flex-direction: column;
+}
+
+div#sign-up-button {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #596D48;
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+}
+
+p#login a {
+    color: #596D48;
 }
