@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     display: flex;
 }
@@ -18,7 +22,7 @@ div.header {
     flex-direction: column;
 
     height: 100vh;
-    width: 45vw;
+    width: 40vw;
     padding: 20px;
     background: url(./images/background.jpg);
 }
@@ -53,7 +57,18 @@ div.credit p {
 
 div.credit a {
     color: white;
-    text-decoration: none;
+}
+
+div.action-statement {
+    padding: 50px;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+div.action-statement {
+    max-width: 800px;
 }
 
 fieldset {
