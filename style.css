@@ -59,6 +59,14 @@ div.credit a {
     color: white;
 }
 
+div.sign-up-main-container {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 div.action-statement {
     padding: 50px;
     margin-top: 10vh;
@@ -67,15 +75,24 @@ div.action-statement {
     gap: 25px;
 }
 
-div.action-statement {
-    max-width: 800px;
+div#inputs {
+    box-shadow: 0 5px 5px 5px rgb(0 0 0 /12%);
+    padding: 50px;
+}
+
+form input {
+    width: 200px;
+}
+
+div#sign-up-button {
+    padding: 50px;
 }
 
 fieldset {
     border: none;
 }
 
-/* .label-placement {
+.label-placement {
     display: flex;
     flex-direction: column;
-}*/
+}
